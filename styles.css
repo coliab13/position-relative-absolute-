@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100%;
+}
+#modal-wrapper{
+    background-color: rgba(0,0,0,0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+}
+#modal{
+    background-color: #fff;
+    width: 50vw; 
+    padding: 5vw;
+    height: 25vh;
+    position: absolute; /* trebuie sa fie  absolute*/
+    /* Centrare  element / Perfect centrat*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.closse-wrapper{
+    text-align: right;
+    position: relative;
+    top: -55px;
+    right: -53px;
+}
